@@ -54,7 +54,6 @@ public:
    */
   ActionClient(
     Node & node,
-    const rclpy::Clock & rclpy_clock,
     py::object pyaction_type,
     const char * action_name,
     const rmw_qos_profile_t & goal_service_qos,
