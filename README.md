@@ -17,13 +17,13 @@ For building documentation, you need an installation of ROS 2.
 
 Source your ROS 2 installation, for example:
 
-    . /opt/ros/foxy/setup.bash
+    . /opt/ros/humble/setup.bash
 
 Build code:
 
     mkdir -p rclpy_ws/src
     cd rclpy_ws/src
-    git clone https://github.com/ros2/rclpy.git
+    git clone https://github.com/Argzero/rclpy.git
     cd ..
     colcon build --symlink-install
 
